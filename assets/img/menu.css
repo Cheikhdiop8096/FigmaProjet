@@ -1,0 +1,113 @@
+body {
+    overflow-x: hidden;
+}
+
+/* Design System */
+
+:root {
+
+    /* Colors */
+
+    --red-highlight: #D2483D;
+
+    --light-grey: #F3F3F3;
+
+    --black: #000000;
+
+    --white: #FFFFFF;
+
+    /* Text configuration */
+    --body-font: 'Montserrat';
+    --body-highlight-font: 'Montserrat';
+    --header-font: 'Bebas Neue';
+    --title-font: 'Bebas Neue';
+
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+    --title-font-weight: 400;
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+}
+
+body {
+
+    background-color: var(--light-grey);
+
+    font-family: var(--body-font);
+
+    font-style: normal;
+
+    font-weight: var(--body-font-weight);
+
+    font-size: var(--body-font-size);
+
+    line-height: var(--body-line-height);
+
+    color: var(--black);
+
+}
+
+.appBar1 a {
+    position: relative; 
+    text-decoration: none;
+    flex-direction: column;
+    top: 15px;
+    justify-content: center;
+    text-align: center;
+    left: 30px;
+    margin: 10px;
+    font-size: 20px;
+
+}
+.appBar1 {
+    display: flex;
+    flex-direction: row;    
+}
+.Menu1 {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   right: -100px;
+   top: 40px;
+}
+.CM {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    right: -599px;
+    top: 30px;
+}
+
+h1 {
+    position: relative;
+    display: flex;
+    left: 100px;
+}
+.PR {
+    position: relative;
+    display: flex;
+    left: 100px;
+    font-size: 20px;
+}
+.TM {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    right: -50px;
+    top: 20px;
+}
+.FM {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}

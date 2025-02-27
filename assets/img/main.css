@@ -1,0 +1,223 @@
+
+body {
+    overflow-x: hidden;
+}
+/* Design System */
+
+:root {
+
+    /* Colors */
+
+    --red-highlight: #D2483D;
+
+    --light-grey: #F3F3F3;
+
+    --black: #000000;
+
+    --white: #FFFFFF;
+
+    /* Text configuration */
+    --body-font: 'Montserrat';
+    --body-highlight-font: 'Montserrat';
+    --header-font: 'Bebas Neue';
+    --title-font: 'Bebas Neue';
+
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+    --title-font-weight: 400;
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+}
+
+
+body {
+
+    background-color: var(--light-grey);
+
+    font-family: var(--body-font);
+
+    font-style: normal;
+
+    font-weight: var(--body-font-weight);
+
+    font-size: var(--body-font-size);
+
+    line-height: var(--body-line-height);
+
+    color: var(--black);
+
+}
+
+/* Modules */
+@import 'modules/appBar.css';
+
+.appBar {
+    display: flex;
+    flex-direction: row; 
+   
+}
+.appBar a {
+    position: relative; 
+    text-decoration: none;
+    flex-direction: column;
+    top: 15px;
+    justify-content: center;
+    text-align: center;
+    left: 30px;
+    margin: 10px;    
+}
+.Yy {
+    position: relative;
+    top: 35px;
+    left: 340px;
+}
+.Plats {
+    position: relative;
+    top: 35px;
+    left: 350px;
+}
+.Clic {
+    position: relative;
+    top: 35px;
+    left: 480px;
+}
+.LogoX{
+    position: relative;
+    top: 85px;
+    left: 980px;
+    position: absolute;
+    float: right;
+    top: -20;
+    width: 230px;
+     
+}
+.Nad {
+    position: relative;
+    top: 75px;
+    left: 660px; 
+    width: 160px;
+}
+.Sf {
+    position: relative;
+    display: flex;
+    top: 25px;
+    left: 660px; 
+    width: 160px;
+}
+.Dscrpt  {
+    position: relative;
+    display: flex;
+    right: -70px;
+    text-align: center;
+    justify-content: center;
+    justify-content: center;
+    top: 40px;
+    
+    font-size: 20px;
+}
+
+.Rs {
+    position: relative;
+    top: 55px;
+    left: 630px; 
+    width: 260px;
+    font-weight: bold;
+   
+}
+.images{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    bottom: -30px; 
+    width: 1490px;
+}
+.images img {
+    width: 130px;
+    height: auto;
+}
+.images div{
+    margin: 65px;
+   
+}
+.images2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.images2 img {
+    position: relative;
+    display: flex;
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 30px;
+    flex-wrap: wrap; 
+    top: 40px;
+    
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+.appBar__icon {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.appBar__nav {
+    display: flex;
+    align-items: center;
+}
+.appBar__navItem {
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    margin-right: 1rem;
+}
+.appBar__navItem:hover,
+.appBar__navItem.active {
+  text-decoration: underline var(--red-highlight);
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.188rem;
+}
+.Ct {
+  
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    right: -70px;
+    top: 40px;
+}
+.Ctn {
+    position: relative;
+    display: flex;
+    top: 25px;
+    left: 630px; 
+    width: 160px;
+
+}
+
+.Ft {
+    position: relative;
+    align-items: center;
+    width: 130px;
+    top: 60px;
+}
+
+
+        
+

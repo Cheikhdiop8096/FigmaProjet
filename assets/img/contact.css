@@ -1,0 +1,87 @@
+body {
+    overflow-x: hidden;
+}
+
+/* Design System */
+
+:root {
+
+    /* Text configuration */
+    --body-font: 'Montserrat';
+    --body-highlight-font: 'Montserrat';
+    --header-font: 'Bebas Neue';
+    --title-font: 'Bebas Neue';
+
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+    --title-font-weight: 400;
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem;
+}
+body {
+
+    background-color: var(--light-grey);
+
+    font-family: var(--body-font);
+
+    font-style: normal;
+
+    font-weight: var(--body-font-weight);
+
+    font-size: var(--body-font-size);
+
+    line-height: var(--body-line-height);
+
+    color: var(--black);
+
+}
+.appBar {
+    display: flex;
+    flex-direction: row; 
+   
+}
+.appBar a {
+    position: relative; 
+    text-decoration: none;
+    flex-direction: column;
+    top: 15px;
+    justify-content: center;
+    text-align: center;
+    left: 30px;
+    margin: 10px;    
+}
+.AdC {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    right: -70px;
+    top: 30px;
+}
+.Cont {
+    position: relative;
+    display: flex;
+    top: 25px;
+    left: 630px; 
+    width: 160px;
+}
+.Pg {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    right: -40px;
+    top: 40px;
+}
+.Fout {
+    position: relative;
+    align-items: center;
+    top: 40px;
+}
