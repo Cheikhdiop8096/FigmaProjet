@@ -58,7 +58,6 @@ body {
 
 .appBar1 a {
     position: relative; 
-    text-decoration: none;
     flex-direction: column;
     top: 15px;
     justify-content: center;
@@ -110,4 +109,12 @@ h1 {
     position: relative;
     text-align: center;
     top: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.menu{
+    text-decoration: underline;
+    text-decoration-color:red ;
 }

@@ -66,8 +66,7 @@ body {
    
 }
 .appBar a {
-    position: relative; 
-    text-decoration: none;
+    position: relative;
     flex-direction: column;
     top: 15px;
     justify-content: center;
@@ -217,7 +216,13 @@ body {
     width: 130px;
     top: 60px;
 }
-
-
+a{
+    color: black;
+    text-decoration: none;
+}
+.accueil{
+    text-decoration: underline;
+    text-decoration-color:red ;
+}
         
 
