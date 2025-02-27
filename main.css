@@ -105,22 +105,14 @@ body {
     left: 660px; 
     width: 160px;
 }
-.Sf {
-    position: relative;
-    display: flex;
-    top: 25px;
-    left: 660px; 
-    width: 160px;
+.savoir h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
-.Dscrpt  {
-    position: relative;
-    display: flex;
-    right: -70px;
+.savoir  {
     text-align: center;
     justify-content: center;
-    justify-content: center;
-    top: 40px;
-    
     font-size: 20px;
 }
 
